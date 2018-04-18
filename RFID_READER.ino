@@ -120,8 +120,6 @@ void loop() {
             digitalWrite(D3, HIGH);
 
             client.stop();  // Disconnecting from the host
-
-
         }     
         // ------------------------------------------------------------------
       }
