@@ -93,7 +93,6 @@ void loop() {
         if (client.connect(serverWeb, 80)) {
             Serial.println("Connected to web server.");
             //WiFi.printDiag(Serial);
-            
           
             /* Forming the POST request. It should be like:  "var1name=value1&var2name=value2&var3name=value3&varNname=valueN" */
             String data = "reader=" + String(id) + "&tag=" + request; 
